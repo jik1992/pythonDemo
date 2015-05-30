@@ -29,9 +29,9 @@ print str[0:5]
 
 # java list
 list = ["12", "asd", "111"]
-if ("12" in list):
+if "12" in list:
     print(True)
-if ("11" not in list):
+if "11" not in list:
     print(False)
 del list[2]
 
@@ -73,7 +73,7 @@ print u'我是中文'
 
 i=0
 while i<10:
-    ++i
+    var = ++i
 
 for i in "hello world":
     print i+"\t"
