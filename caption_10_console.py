@@ -1,10 +1,7 @@
-from datetime import time
-from prettytable import PrettyTable
-from progressbar import ProgressBar
-import wget
-import colorama
 import uuid
-import logging
+
+from prettytable import PrettyTable
+import wget
 
 table = PrettyTable(["animal", "ferocity"])
 table.add_row(["wolverine", 100])

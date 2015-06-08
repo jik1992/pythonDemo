@@ -1,5 +1,10 @@
 __author__ = 'zuoyun1'
 
+#pip install Virtualenv
+#virtualenv demo
+#cd demo
+#source /.bin/activate
+#deactivate
 
 
 
