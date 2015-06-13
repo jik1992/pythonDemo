@@ -1,6 +1,8 @@
 # coding=utf-8
 import xlwt
 import xlrd
+import datetime
+from openpyxl import Workbook
 
 # 写
 workBook = xlwt.Workbook(encoding='utf-8')
@@ -28,3 +30,11 @@ for bookSheet in workBook.sheets():
         for col in xrange(bookSheet.ncols):
             print xlrd.cellname(row, col)
             print bookSheet.cell(row, col).value
+
+# excel 07
+wb = Workbook()
+ws = wb.active
+ws['A1'] = 42
+ws.append([1, 2, "中文"])
+ws['A2'] = datetime.datetime.now()
+wb.save("sample.xlsx")
