@@ -90,6 +90,7 @@ target/
 ## File-based project format:
 *.ipr
 *.iws
+*.xls
 
 ## Plugin-specific files:
 
